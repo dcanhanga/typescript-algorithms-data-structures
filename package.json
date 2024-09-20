@@ -1,0 +1,49 @@
+{
+	"name": "typescript-algorithms-data-structures",
+	"version": "1.0.0",
+	"description": "Este repositório contém uma coleção de algoritmos e estruturas de dados implementados em TypeScript. O objetivo é explorar e resolver desafios de programação, aprimorando o entendimento de conceitos fundamentais da ciência da computação.",
+	"keywords": [
+		"TypeScript",
+		"Algorithms",
+		"Data Structures",
+		"Computer Science",
+		"Coding Challenges",
+		"Sorting Algorithms",
+		"Searching Algorithms",
+		"Graph Algorithms",
+		"Dynamic Programming",
+		"Recursion",
+		"Linked List",
+		"Stack",
+		"Queue",
+		"Tree",
+		"Binary Search Tree",
+		"Hash Table",
+		"Interview Preparation",
+		"Code Optimization",
+		"Technical Challenges",
+		"Algorithm Testing"
+	],
+	"author": "Domingos Canhanga",
+	"license": "ISC",
+	"scripts": {
+		"biome": "biome check --write --no-errors-on-unmatched",
+		"prepare": "husky",
+		"test": "vitest run",
+		"test:watch": "vitest",
+		"test:coverage": "vitest run --coverage"
+	},
+	"devDependencies": {
+		"vite-tsconfig-paths": "5.0.1",
+		"@biomejs/biome": "1.9.1",
+		"@types/lint-staged": "13.3.0",
+		"@types/node": "22.5.5",
+		"@vitest/coverage-v8": "2.1.1",
+		"git-commit-msg-linter": "5.0.8",
+		"husky": "9.1.6",
+		"lint-staged": "15.2.10",
+		"tsx": "4.19.1",
+		"typescript": "5.6.2",
+		"vitest": "2.1.1"
+	}
+}

@@ -1,7 +1,12 @@
-import { describe, it,expect  } from "vitest";
+import { describe, it, expect } from "vitest";
+import { helloWorld } from "./hello-world";
 
-describe('Config setup', () => {
-  it('',()=> {
- expect(1+2).toBe(3)
-  })
-})
+
+const sut = helloWorld;
+
+describe('Hello World', () => {
+  it("Deve retornar 'Hello World!' como uma string", () => {
+    const result = sut();
+    expect(result).toBe('Hello World!');
+  });
+});

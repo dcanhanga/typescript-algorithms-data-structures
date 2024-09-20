@@ -3,6 +3,6 @@
         "typescript": "tsx",
         "typescriptreact": "tsx"
     },
-    "code-runner.runInTerminal": true,
-    "code-runner.executorMap.tsx": "tsx"
+    "code-runner.runInTerminal": true
 }
+

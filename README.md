@@ -10,9 +10,6 @@ Neste primeiro capítulo, abordaremos funções e a manipulação de dados. Foca
 
 1. **Hello World** - Uma introdução simples para verificar a configuração.
 2. **Get Sum** - Aprender a manipular números e retornar resultados.
-3. **Calculator** - Desenvolver habilidades para implementar lógica condicional.
-4. **Find Max Number** - Explorar como trabalhar com arrays e identificar valores.
-5. **Title Case** - Manipular strings e aprender sobre a capitalização de palavras.
-6. **Reverse String** - Praticar a manipulação de strings com lógica de programação.
+
 
 Sinta-se à vontade para contribuir com suas soluções ou melhorias, e boa sorte na sua jornada de aprendizado!

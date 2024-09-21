@@ -1,1 +1,13 @@
+
+AUTHOR_EMAIL=$(git config user.email)
+ALLOWED_EMAIL="canhanga96@gmail.com"
+ERROR_MESSAGE="Você não tem permissão para modificar arquivos de teste (.spec.ts ou .test.ts).
+Por favor, envie um pull request para sugestões de teste."
+if [[ "$AUTHOR_EMAIL" != "$ALLOWED_EMAIL" ]]; then
+  if git diff --cached --name-only | grep -E '\.(spec|test)\.ts$'; then
+    echo "$ERROR_MESSAGE"
+    exit 1
+  fi
+fi
+
 npm run test:coverage

@@ -1,4 +1,4 @@
-# Desafio: Decodificação de Resistor
+# Resistor Color
 
 ## Introdução
 Os resistores são componentes eletrônicos comuns usados em circuitos para limitar a corrente elétrica. Eles são codificados com cores que representam seus valores de resistência. Devido ao tamanho pequeno dos resistores, os fabricantes utilizam um código de cores para indicar esses valores.

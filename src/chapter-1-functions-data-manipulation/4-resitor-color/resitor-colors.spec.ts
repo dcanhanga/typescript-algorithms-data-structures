@@ -6,7 +6,7 @@ describe('Desafio Resistor Colors', () => {
 		const sut = resistorColorToValue;
 		it('Deve lançar um erro se passar uma cor fora do padrão do código de cor', () => {
 			// @ts-ignore
-			expect(() => sut().resistorColorToValue('pink')).toThrow();
+			expect(() => sut().resistorColorToValue('pink')).toThrow('Cor inválida');
 		});
 		it('Deve retornar zero com a com black', () => {
 			const result = resistorColorToValue('black');

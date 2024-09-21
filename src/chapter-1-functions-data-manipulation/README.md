@@ -5,6 +5,9 @@ Neste capítulo, exploraremos conceitos fundamentais de funções e como manipul
 1. [**Hello World**](./1-hello-world/README.md)
 2. [**Get Sum**](./2-get-sum/README.md)
 3. [**Two fer One**](./3-two-fer-one/README.md)
+4. [**Resistor Color**](./4-resitor-color/README.md)
+4. [**Resistor Color Duo**](./5-resitor-color-duo/README.md)
+
 
 ## Objetivos
 - Familiarizar-se com a criação de funções em TypeScript.

@@ -1,3 +1,3 @@
-export function getSum(firstNumber: number, secondNumber: number) {
+export function getSum(firstNumber: number, secondNumber: number): number {
 	return firstNumber + secondNumber;
 }

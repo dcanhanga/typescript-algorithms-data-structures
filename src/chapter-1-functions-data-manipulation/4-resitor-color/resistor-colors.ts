@@ -57,6 +57,12 @@ export const COLORS = [
 	'white',
 ] as const;
 
-export const resistorColorToValue = (color: Color) => COLORS.indexOf(color);
+export const resistorColorToValue = (color: Color) => {
+	const hasInvalidColorCode = !COLORS.includes(color);
+	if (hasInvalidColorCode) {
+		throw new Error('Cor inválida');
+	}
+	return COLORS.indexOf(color);
+};
 
 export const listResistorColors = () => COLORS;
